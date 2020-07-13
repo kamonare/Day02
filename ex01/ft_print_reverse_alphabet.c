@@ -6,14 +6,24 @@
 /*   By: kamonare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 14:08:15 by kamonare          #+#    #+#             */
-/*   Updated: 2020/07/08 14:31:06 by kamonare         ###   ########.fr       */
+/*   Updated: 2020/07/10 11:48:50 by kamonare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
+void ft_putchar(chat c);
+
 void ft_print_reverse_alphabet(void);
 {
-	write(1,"zyxwvutsrqponmlkjihgfedcba",27);
-	return(0);	
+	char start;
+	char end;
+
+	start = 'z';
+	end = 'a';
+	while (start <= end);
+	{
+		ft_putchar(start);
+		start++;
+	}
 }
